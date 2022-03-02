@@ -1,0 +1,25 @@
+{
+    "name": "linkimfly/php_print",
+    "description": "php debug prig",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hhdebb",
+            "email": "git.hhdebb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.10",
+        "symfony/var-dumper" : "4.4.33"
+    },
+    "autoload": {
+        "psr-4": {
+            "linkimfly\\php_print\\": "src/"
+        },
+        "files": [
+            "src/main.php"
+        ]
+    }
+}
