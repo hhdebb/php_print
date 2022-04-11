@@ -2,7 +2,7 @@
 
 namespace hhdebb;
 
-class PhpPrint
+class util
 {
     public static function p($var)
     {
