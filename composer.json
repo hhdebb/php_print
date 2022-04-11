@@ -1,6 +1,6 @@
 {
     "name": "hhdebb/php_print",
-    "description": "php debug prig",
+    "description": "php debug print",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,12 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.10",
-        "symfony/var-dumper" : "4.4.33"
+        "php": ">=5.3.10"
     },
     "autoload": {
         "psr-4": {
-            "linkimfly\\php_print\\": "src/"
+            "hhdebb\\": "src/"
         },
         "files": [
             "src/main.php"
